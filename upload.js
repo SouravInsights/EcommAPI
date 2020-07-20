@@ -27,7 +27,6 @@ const importData = async () => {
 
 }
 
-
 const deleteData = async () => {
     try {
         await Product.deleteMany();
